@@ -1,0 +1,380 @@
+.border{
+    border:1px solid #000;
+}
+#wrapper{
+    
+    position:absolute;
+    
+    font-family: arial;
+}
+#header{
+    top:0px;
+    height:100px;
+    width:800px;
+    position:absolute;
+    background: url("../images/header.jpg");
+}
+#middle{
+    top:100px;
+    height:475px;
+    width:800px;
+    position:absolute;
+}
+#footer{
+    top:575px;
+    height:25px;
+    width:800px;
+    position:absolute;
+}
+
+#clcNav{
+    position:absolute;
+    width:150px;
+    height:475px;
+    top:0px;
+    border-top: 1px solid #666;
+    border-left: 1px solid #666;
+    border-bottom: 1px solid #666;
+    background: url("../images/clcnav.jpg");
+}
+#tabs{
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    position: absolute;
+    width:650px;
+    height:25px;
+    left:150px;
+    top:0px;
+}
+#contents{
+    border-left: 1px solid #666;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    position:absolute;
+    width:650px;
+    height:450px;
+    left:150px;
+    top:25px;
+    background: url('../images/contentsbg.jpg');
+}
+#loginContainer{
+    border: 1px solid #666666;
+    border-radius: 5px 5px 5px 5px;
+    height: 90px;
+    left: 20px;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    width: 230px;
+    
+}
+.tab{
+    cursor:pointer;
+    float:left;
+    width:161px;
+    text-align: center;
+    font-size:13px;
+    padding-top:3px;
+    height:22px;
+    border-right:1px solid #666;
+    background: url('../images/nav/navFlatIn.jpg');
+}
+.tab0{
+    cursor:pointer;
+    float:left;
+    width:164px;
+    text-align: center;
+    font-size:13px;
+    padding-top:3px;
+    height:22px;
+    background: url('../images/nav/navFlatIn.jpg');
+}
+.tab:hover{
+    background: url('../images/nav/navFlatAc.jpg');
+}
+.tab0:hover{
+    background: url('../images/nav/navFlatAc.jpg');
+}
+
+.clc{
+    width:150px;
+    height:20px;
+    font-size:12px;
+    overflow:hidden;
+    padding-top:3px;
+    padding-left:2px;
+    border-top:1px solid #666;
+    border-bottom:1px solid #666;
+    cursor: pointer;
+}
+.noCursor{
+    width:150px;
+    height:20px;
+    font-size:12px;
+    overflow:hidden;
+    padding-top:3px;
+    padding-left:2px;
+   
+}
+
+#clcProfile{
+    
+    height: 195px;
+    left: 20px;
+    position: absolute;
+    top: 45px;
+    width: 585px;
+    padding:10px;
+    
+    font-size:14px;
+}
+#clcProfileLeft{
+    position: absolute;
+    
+    width:500px;
+    height:200px;
+    
+}
+#clcProfileRight{
+    position: absolute;
+    left:500px;
+    top:0px;
+    width:100px;
+    height:200px;
+}
+.table{
+    height: 340px;
+    left: 20px;
+    position: absolute;
+    top: 70px;
+    width: 600px;
+    
+    border-top: 1px solid #666;
+}
+#acHeadContainer{
+    width:253px;
+    background-color:#ddd;
+    height:20px;
+    font-size:12px;
+    border-top:1px solid #666;
+    position: absolute;
+    top:70px;
+    margin:20px;
+}
+.ac1{
+    width:100px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac2{
+    width:150px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+    border-right:1px solid #666;
+}.ac3{
+    width:90px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac4{
+    width:80px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac4-B{
+    width:59px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac5{
+    width:40px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac6{
+    width:40px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac7{
+    width:72px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}.ac8{
+    width:56px;
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    float:left;
+    overflow:hidden;
+}
+.pink{
+    background: #fcc;
+}
+.learnerTHead{
+    width:600px;
+    background-color:#ddd;
+    height:20px;
+    font-size:14px;
+}
+.lt1{
+    width:40px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+float:left;
+}
+.lt2{
+    width:125px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+float:left;
+}
+.lt3{
+    width:140px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+     float:left;
+}
+.lt4{
+    width:125px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+float:left;
+}
+.lt5{
+    width:164px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+    border-right:1px solid #666;
+     float:left;
+}
+.lt2_3{
+    width:197px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+float:left;
+}
+.lt3_3{
+    width:194px;
+    border-left:1px solid #666;
+    border-bottom:1px solid #666;
+    height:20px;
+     float:left;
+}
+
+.learnerItem0{
+    width:600px;
+    background-color:#fff;
+    height:21px;
+    font-size:12px;
+}
+.learnerItem1{
+    width:600px;
+    background-color:#fee;
+    height:21px;
+    font-size:12px;
+}
+.tabContainer{
+    height: 405px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 605px;
+    
+}
+.tabHeadContainer{
+    height:25px;
+    width:605px;
+    background-color:#eee;
+}
+.tabLabel{
+    font-family:Arial;
+    float:left;
+    padding-left: 5px;
+    padding-right: 5px;
+    height:22px;
+    cursor: pointer;
+}
+.tabA{
+    border-top: 3px solid #F7A52D;
+    background-color: #fff;
+    cursor:default;
+}
+.tabNA{
+    border-top: 3px solid #666;
+    background-color:#ccc;
+}
+.tabNA:hover{
+    background-color:#ddd;
+}
+.tabContents{
+    width:585px;
+    height:360px;
+    background-color:#fff;
+    padding:10px;
+}
+#updateHolder{
+    position:absolute;
+    right:10px;
+    bottom:10px;
+}
+#grContents{
+    padding:10px;
+    padding-top:0px;
+}
+#APViewer{
+    position:absolute;
+    width:500px;
+    height:400px;
+    left:30px;
+    top:20px;
+    background-color:#fff;
+    z-index: 999;
+    border:1px solid #666;
+    border-radius: 10px;
+}
+#apclose{
+    position: absolute;
+    right:5px;
+    top:3px;
+    cursor: pointer;
+}
+#apcontent{
+    position: absolute;
+    left:10px;
+    top:20px;
+}
+#apedit{
+    position: absolute;
+    border:1px solid #666;
+    right:10px;
+    bottom: 10px;
+    cursor: pointer;
+    padding:3px;
+    
+}
+
